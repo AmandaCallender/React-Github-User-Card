@@ -1,0 +1,75 @@
+body {
+  box-sizing: border-box;
+  background-image: url(./background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.App {
+  text-align: center;
+  padding: 2%;
+}
+.app-user {
+  text-align: center;
+  margin: 1%;
+  width: 98%;
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 500px) {
+  .app-user {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+}
+
+.user-search-form {
+  margin-bottom: 5%;
+}
+
+.user-card {
+  width: 320px;
+  padding: 2%;
+  height: 500px;
+  border-style: ridge;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.user-card img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+.followers {
+  margin: 0 auto;
+  padding: 5%;
+  border-style: ridge;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.follower {
+  width: 300px;
+}
+.follower img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+input {
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+button {
+  background-color: pink;
+  border: 1px black;
+  width: 100px;
+  height: 40px;
+  margin-left: 10px;
+  border-radius: 15px;
+  color: black;
+}
